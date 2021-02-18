@@ -1,6 +1,6 @@
 <template>
     <div class="continer">
-        <ul class="nav nav-pills justify-content-center">
+        <ul id="bg-nav-menu" class="nav nav-pills justify-content-center ">
             <!-- <li class="nav-item">
                  <a class="nav-link active" href="#">{{Active}}</a>
             </li> -->
@@ -28,5 +28,8 @@
 </script>
 
 <style lang="scss" scoped>
-
+@import '../../assets/sass/base/_variable.scss';
+#bg-nav-menu{
+    background-color: $bg-nav-menu-color;
+}
 </style>
