@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 //Home Routers
-const Home = import('../views/HomeViews/Home.vue');
+const Home = import('../views/HomeViews/MainHome.vue');
+const homepage = import('../views/HomeViews/HomePage.vue');
 
 //book routers
 const bookhome = import('../views/BookView/BookHome.vue');
@@ -17,13 +18,19 @@ const routes = [
     meta:{transition:"ts-home"},
     children:[
       {
-        path: '/bookhome',
+        path: '',
+        name: 'homepage',
+        component: homepage,
+        meta:{transition:"ts-homepage"}
+      },
+      {
+        path: 'bookhome',
         name: 'bookhome',
         component: bookhome,
         meta:{transition:"ts-bookhome"}
       },
       {
-        path: '/carhome',
+        path: 'carhome',
         name: 'carhome',
         component: carhome,
         meta:{transition:"ts-carhome"}
