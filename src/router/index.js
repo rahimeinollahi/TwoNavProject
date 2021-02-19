@@ -17,6 +17,9 @@ const csharppage1 = import('../views/HomeViews/CSharpView/CSharpPage1.vue');
 
 //book routers
 const bookhome = import('../views/BookView/BookHome.vue');
+const software = import('../views/BookView/Software.vue');
+const hardware = import('../views/BookView/Hardware.vue');
+const datasintis = import('../views/BookView/DataSictise.vue');
 
 //cars routers
 const carhome = import('../views/CarView/CarHome.vue');
@@ -81,7 +84,27 @@ const routes = [
         path: 'bookhome',
         name: 'bookhome',
         component: bookhome,
-        meta:{transition:"ts-bookhome"}
+        meta:{transition:"ts-bookhome"},
+        children:[
+          {
+            path: '',
+            name: 'software',
+            component: software,
+            meta:{transition:"ts-software"}
+          },
+          {
+            path: 'hardware',
+            name: 'hardware',
+            component: hardware,
+            meta:{transition:"ts-hardware"}
+          },
+          {
+            path: 'datasintis',
+            name: 'datasintis',
+            component: datasintis,
+            meta:{transition:"ts-datasintis"}
+          },
+        ]
       },
       {
         path: 'carhome',
