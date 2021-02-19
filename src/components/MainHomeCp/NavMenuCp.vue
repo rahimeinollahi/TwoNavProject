@@ -1,5 +1,5 @@
 <template>
-    <div class="continer">
+    <div class="continer mt-1">
         <ul id="bg-nav-menu" class="nav nav-pills justify-content-center ">
             <!-- <li class="nav-item">
                  <a class="nav-link active" href="#">{{Active}}</a>
@@ -9,9 +9,10 @@
             <a class="nav-link dropdown-toggle btn-dark m-2" data-toggle="dropdown" href="#">{{item.nameToggle}}</a>
             <div class="dropdown-menu" v-if="item.parts">
                 <!-- <a class="dropdown-item" href="#" v-if="sub in item.parts" :key="sub.id">{{sub.linkItem}}</a></div> -->
-                <a class="dropdown-item text-center" href="#" v-for="sub in item.parts" :key="sub.id">{{sub.linkItem}}</a></div>
+                <router-link class="dropdown-item text-center" :to="{path:sub.router}" v-for="sub in item.parts" :key="sub.id">{{sub.linkItem}}</router-link></div>
             </li>
             </ul>
+            <!-- <router-view /> -->
     </div>
 </template>
 

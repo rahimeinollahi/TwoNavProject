@@ -6,6 +6,8 @@ import mutations from './mutations'
 import NavHome from './Modules/NavHome'
 import NavMenu from './Modules/NavMenu'
 import HomeImages from './Modules/HomeImages'
+import algorithm from './Modules/Algorithm'
+import table from './Modules/Table'
 
 export default createStore({
   state: {
@@ -19,6 +21,8 @@ export default createStore({
   modules: {
    a:NavHome,
    b:NavMenu,
-   c:HomeImages
+   c:HomeImages,
+   d:algorithm,
+   tbl:table
   }
 })
