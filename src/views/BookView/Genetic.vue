@@ -1,11 +1,13 @@
 <template>
     <div class="continer">
-        <p>gen view..</p>
+        <genetic-cp />
     </div>
 </template>
 
 <script>
+import GeneticCp from '../../components/BookCp/GeneticCp.vue'
     export default {
+  components: { GeneticCp },
         name:'Genetic'
     }
 </script>

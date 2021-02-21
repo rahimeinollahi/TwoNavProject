@@ -55,4 +55,7 @@ import {mapState} from 'vuex';
         text-decoration: line-through;
         // border-bottom: 1px solid red;
     }
+    img{
+        object-fit: cover;
+    }
 </style>

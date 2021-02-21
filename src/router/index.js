@@ -23,8 +23,12 @@ const software = import('../views/BookView/Software.vue');
       const hardwarepage1 = import('../views/BookView/HardwareViews/HardwarePage1.vue');
       const hardwarepage2 = import('../views/BookView/HardwareViews/HardwarePage2.vue');
 
-
 const datasintis = import('../views/BookView/DataSictise.vue');
+
+//ai router
+const astart = import('../views/BookView/AStar.vue');
+const genetic = import('../views/BookView/Genetic.vue');
+const recovery = import('../views/BookView/Recovery.vue');
 
 //cars routers
 const carhome = import('../views/CarView/CarHome.vue');
@@ -122,6 +126,24 @@ const routes = [
             name: 'datasintis',
             component: datasintis,
             meta:{transition:"ts-datasintis"}
+          },
+          {
+            path: 'astart',
+            name: 'astart',
+            component: astart,
+            meta:{transition:"ts-astart"}
+          },
+          {
+            path: 'genetic',
+            name: 'genetic',
+            component: genetic,
+            meta:{transition:"ts-genetic"}
+          },
+          {
+            path: 'recovery',
+            name: 'recovery',
+            component: recovery,
+            meta:{transition:"ts-recovery"}
           },
         ]
       },

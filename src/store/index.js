@@ -8,6 +8,7 @@ import NavMenu from './Modules/NavMenu'
 import HomeImages from './Modules/HomeImages'
 import algorithm from './Modules/Algorithm'
 import table from './Modules/Table'
+import astar from './Modules/AStart'
 
 export default createStore({
   state: {
@@ -35,9 +36,9 @@ export default createStore({
           {id:3,linkText:'Data Sicentis',router:'/bookhome/datasintis'},
      ]},
      {id:2,header:'Ai',parts:[
-          {id:1,linkText:'A*',showLink:true,router:'/bookhome/'},
-          {id:2,linkText:'Genetic',router:'/bookhome/'},
-          {id:3,linkText:'recovery',router:'/bookhome/'},
+          {id:1,linkText:'A*',showLink:true,router:'/bookhome/astart'},
+          {id:2,linkText:'Genetic',router:'/bookhome/genetic'},
+          {id:3,linkText:'recovery',router:'/bookhome/recovery'},
      ]},
    ],
    softwareRside:[
@@ -135,6 +136,7 @@ export default createStore({
    b:NavMenu,
    c:HomeImages,
    d:algorithm,
-   tbl:table
+   tbl:table,
+   ast:astar,
   }
 })

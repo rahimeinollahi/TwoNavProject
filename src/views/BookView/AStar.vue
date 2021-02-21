@@ -1,11 +1,13 @@
 <template>
     <div class="continer">
-        <p>a star page</p>
+        <a-star-cp />
     </div>
 </template>
 
 <script>
+import AStarCp from '../../components/BookCp/AStarCp.vue'
     export default {
+  components: { AStarCp },
         name:'Astar'
     }
 </script>

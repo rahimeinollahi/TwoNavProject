@@ -1,11 +1,13 @@
 <template>
     <div class="continer">
-        <p>recovery page</p>
+        <recovery-cp />
     </div>
 </template>
 
 <script>
+import RecoveryCp from '../../components/BookCp/RecoveryCp.vue'
     export default {
+  components: { RecoveryCp },
         name:'Recovery'
     }
 </script>

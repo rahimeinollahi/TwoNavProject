@@ -44,6 +44,9 @@ import {mapState} from 'vuex';
 
 <style lang="scss" scoped>
 @import '../../../assets/sass/base/_variable.scss';
+img{
+        object-fit: cover;
+    }
     img:hover{
         border: 2px solid $img-border-page-1-hover-color;
         opacity: 0.3;
