@@ -18,7 +18,12 @@ const csharppage1 = import('../views/HomeViews/CSharpView/CSharpPage1.vue');
 //book routers
 const bookhome = import('../views/BookView/BookHome.vue');
 const software = import('../views/BookView/Software.vue');
-const hardware = import('../views/BookView/Hardware.vue');
+      //hardware
+      const hardware = import('../views/BookView/HardwareViews/Hardware.vue');
+      const hardwarepage1 = import('../views/BookView/HardwareViews/HardwarePage1.vue');
+      const hardwarepage2 = import('../views/BookView/HardwareViews/HardwarePage2.vue');
+
+
 const datasintis = import('../views/BookView/DataSictise.vue');
 
 //cars routers
@@ -96,7 +101,21 @@ const routes = [
             path: 'hardware',
             name: 'hardware',
             component: hardware,
-            meta:{transition:"ts-hardware"}
+            meta:{transition:"ts-hardware"},
+            children:[
+              {
+                path: '',
+                name: 'hardwarepage1',
+                component: hardwarepage1,
+                meta:{transition:"ts-hardwarepage1"}
+              },
+              {
+                path: 'hardwarepage2',
+                name: 'hardwarepage2',
+                component: hardwarepage2,
+                meta:{transition:"ts-hardwarepage2"}
+              },
+            ]
           },
           {
             path: 'datasintis',

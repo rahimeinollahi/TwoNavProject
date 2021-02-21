@@ -1,6 +1,6 @@
 <template>
     <div class="continer">
-        <p>hardware cp</p>
+        <p></p>
     </div>  
 </template>
 
