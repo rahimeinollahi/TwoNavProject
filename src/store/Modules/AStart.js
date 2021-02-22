@@ -28,6 +28,12 @@ const state={
         {id:2,header:'Module 5: The ethics of artificial intelligence',contentPage:'Explore the hierarchy of ethical and legal considerations around AI.'},
         {id:3,header:'Module 6: How to drive AI in your business',contentPage:'Identify the potential business opportunity of AI in a specific context.'},
     ],
+
+    middleItem3:[
+        {id:1,url:'../../../../image-as/mid-1.png',content:'Experience a flexible but structured approach to online education as you learn around your schedule'},
+        {id:2,url:'../../../../image-as/mid-2.png',content:'Enjoy a personalised and supported online learning experience'},
+        {id:3,url:'../../../../image-as/mid-3.png',content:'Earn a certificate of attendance from Saïd Business School, University of Oxford'},
+    ]
 };
 
 const getters={};
