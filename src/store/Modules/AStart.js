@@ -13,11 +13,21 @@ const state={
         {id:5,content:'their organisations.'},
     ],
     countCtn:[
-        {id:1,text:'The ability to identify and assess the possibilities for AI in your organisation and',textBold:'build a business case for its implementation.'},
-        {id:2,text:'A strong conceptual understanding of the technologies behind AI such as',textBold:'machine learning, deep learning, neural networks, and algorithms.'},
-        {id:3,text:'Insight from Oxford Saïd faculty and a host of industry experts, helping you to develop an informed opinion about AI and its',textBold:'social and ethical implications.'},
-        {id:4,text:'A contextual understanding of AI, its history, and evolution, helping you to',textBold:'make relevant predictions for its future trajectory.'},
-    ]
+        {id:1,text:'The ability to identify and assess the possibilities for AI in your organisation and ',textBold:'build a business case for its implementation.'},
+        {id:2,text:'A strong conceptual understanding of the technologies behind AI such as ',textBold:'machine learning, deep learning, neural networks, and algorithms.'},
+        {id:3,text:'Insight from Oxford Saïd faculty and a host of industry experts, helping you to develop an informed opinion about AI and its ',textBold:'social and ethical implications.'},
+        {id:4,text:'A contextual understanding of AI, its history, and evolution, helping you to ',textBold:'make relevant predictions for its future trajectory.'},
+    ],
+    middleCtn:[
+        {id:1,header:'Module 1: Artificial intelligence ecosystem',contentPage:'Explore the history and potential of AI within the context of the digital ecosystem.'},
+        {id:2,header:'Module 2: AI and machine learning: Understanding the black box',contentPage:'Delve into the mechanics of the three main types of machine learning: supervised, reinforcement, and unsupervised learning.'},
+        {id:3,header:'Module 3: Understanding deep learning and neural networks',contentPage:'Understand what deep learning is and how it is powering the modern approach to AI.'},
+    ],
+    middleCtn2:[
+        {id:1,header:'Module 4: Working with intelligent machines',contentPage:'Explore the concept of intelligence in machines and the impact of AI in the labour market.'},
+        {id:2,header:'Module 5: The ethics of artificial intelligence',contentPage:'Explore the hierarchy of ethical and legal considerations around AI.'},
+        {id:3,header:'Module 6: How to drive AI in your business',contentPage:'Identify the potential business opportunity of AI in a specific context.'},
+    ],
 };
 
 const getters={};

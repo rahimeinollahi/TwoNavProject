@@ -1,6 +1,6 @@
 <template>
     <div class="continer">
-        <p>genetic cp</p>
+        <p>genetic cp test/p>
     </div>
 </template>
 
