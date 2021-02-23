@@ -124,6 +124,11 @@ export default createStore({
      {id:13,url:'../../../image-hw2/4.jpg',alt:'image 13',imgText:'image thirteen',router:'/bookhome/hardware/'},
      {id:14,url:'../../../image-hw2/3.jpg',alt:'image 14',imgText:'image fouteen',router:'/bookhome/hardware/'},
      {id:15,url:'../../../image-hw2/1.jpg',alt:'image 15',imgText:'image fiveteen',router:'/bookhome/hardware/'},
+   ],
+   recoverImageItem:[
+     {id:1,url:'../../image-as/cloth1.png',text:'Learn about breast and ovarian health and assess your risk.',routerText:'TAKE OUR 5 MINUTE QUIZ',router:'/bookhome/recovery'},
+     {id:2,url:'../../image-as/cloth2.png',text:'Explore resources for women at increased risk of breast & ovarian cancer..',routerText:'CONNECT TO SUPPORT',router:'/bookhome/recovery'},
+     {id:3,url:'../../image-as/cloth3.png',text:'Make a gift or start a fundraiser to fuel our life-saving mission.',routerText:'DONATE',router:'/bookhome/recovery'},
    ]
   },
   getters:{
