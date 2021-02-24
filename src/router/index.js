@@ -32,6 +32,8 @@ const recovery = import('../views/BookView/Recovery.vue');
 
 //cars routers
 const carhome = import('../views/CarView/CarHome.vue');
+const carpage1 = import('../views/CarView/CarPage1.vue');
+const carpage2 = import('../views/CarView/CarPage2.vue');
 
 
 
@@ -151,7 +153,21 @@ const routes = [
         path: 'carhome',
         name: 'carhome',
         component: carhome,
-        meta:{transition:"ts-carhome"}
+        meta:{transition:"ts-carhome"},
+        children:[
+          {
+            path: '',
+            name: 'carpage1',
+            component: carpage1,
+            meta:{transition:"ts-carpage1"},
+          },
+          {
+            path: 'carpage2',
+            name: 'carpage2',
+            component: carpage2,
+            meta:{transition:"ts-carpage2"},
+          },
+        ]
       },
       
     ]

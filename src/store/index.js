@@ -9,6 +9,7 @@ import HomeImages from './Modules/HomeImages'
 import algorithm from './Modules/Algorithm'
 import table from './Modules/Table'
 import astar from './Modules/AStart'
+import carIndex from './Modules/CarIndex'
 
 export default createStore({
   state: {
@@ -143,5 +144,6 @@ export default createStore({
    d:algorithm,
    tbl:table,
    ast:astar,
+   carIndex:carIndex,
   }
 })
