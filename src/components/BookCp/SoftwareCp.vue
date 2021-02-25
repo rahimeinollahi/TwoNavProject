@@ -5,7 +5,7 @@
            <div class="col-sm-10"  >
                <div v-for="value in softwareRside" :key="value" :id="value.id">
                          <h2>{{value.textCtn}}</h2>
-                       <span><a href="#home-software"><i class="fas fa-home"></i></a></span>
+                       <span><a href="#main-home-page"><i class="fas fa-home"></i></a></span>
                    
                    <p>{{value.mainCtn}}</p>
                </div>
@@ -39,6 +39,18 @@ $(document).ready(function(){
 
 <style lang="scss" scoped>
 @import '../../assets/sass/base/_variable.scss';
+
+a {
+color: #6dd4b1;
+transition: all 1s linear;
+}
+a:hover,a:focus {
+color: #357099;
+transform: translateY(-2px);
+}
+div {
+  scroll-behavior: smooth;
+}
 .fix-sw{
     // scroll-behavior: smooth;
     // overflow-y: scroll;

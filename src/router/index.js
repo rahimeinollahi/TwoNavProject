@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 //Home Routers
-const Home = import('../views/HomeViews/MainHome.vue');
+const home = import('../views/HomeViews/MainHome.vue');
 const homepage = import('../views/HomeViews/HomePage.vue');
 const homecp = import('../components/MainHomeCp/HomeCp.vue');
 const algorithm = import('../views/HomeViews/Algorithm.vue');
@@ -35,15 +35,22 @@ const carhome = import('../views/CarView/CarHome.vue');
 const carpage1 = import('../views/CarView/CarPage1.vue');
 const carpage2 = import('../views/CarView/CarPage2.vue');
 
-
+//login
+const login = import('../views/LoginView/LogIn.vue');
 
 
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'login',
+    component: login,
+    meta:{transition:"ts-login"},
+  },
+  {
+    path: '/home',
+    name: 'home',
+    component: home,
     meta:{transition:"ts-home"},
     children:[
       {

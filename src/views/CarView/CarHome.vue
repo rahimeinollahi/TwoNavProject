@@ -15,6 +15,16 @@
                 <component :is="Component" />
             </transition>
         </router-view>
+        <hr class="bg-danger">
+
+        <ul class="pagination bg-dark pagination-lg fixed-bottom text-center justify-content-center p-1">
+                <li class="page-item"><router-link class="page-link" to="/home/carhome/">Previous</router-link></li>
+
+                <li class="page-item" v-for="item in getDataPagItems" :key="item.id">
+                    <router-link class="page-link" :to="item.router">{{item.text}}</router-link>
+                </li> 
+                <li class="page-item"><router-link class="page-link" to="/home/carhome/carpage2">Next</router-link></li>
+        </ul>
     </div>
 </template>
 
@@ -25,6 +35,11 @@ import NavCarCp from '../../components/CarCp/NavCarCp.vue'
         components:{
             NavCarCp,
 
+        },
+        computed:{
+            getDataPagItems(){
+                return this.$store.state.pag.pagCar;
+            }
         },
         methods:{
                 alertTest(){

@@ -1,7 +1,7 @@
 <template>
     <div class="continer">
         <p>c3 page one</p>
-        <router-link to="/">back</router-link>
+        <router-link to="/home">back</router-link>
     </div>
 </template>
 

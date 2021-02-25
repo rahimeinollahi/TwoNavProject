@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main-home-page">
     <!-- <nav-home-cp /> -->
     <nav-home-cp />
      <!-- <router-view /> -->
