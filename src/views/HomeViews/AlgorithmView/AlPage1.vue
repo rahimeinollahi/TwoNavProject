@@ -1,7 +1,8 @@
 <template>
     <div class="continer">
-        <p>this is al page one</p>
+        <!-- <p class="bg-danger">test</p>
         <router-link to="algorithm">back</router-link>
+        <router-view /> -->
     </div>
 </template>
 

@@ -8,8 +8,8 @@ const state={
 
         {id:1,nameToggle:'lesson two',parts:[
             {id:1,linkItem:'JavaScript',router:"/"},
-            {id:1,linkItem:'Git',router:"/"},
-            {id:1,linkItem:'Bootstrap',router:"/"},
+            {id:1,linkItem:'Git',router:"/csharp"},
+            {id:1,linkItem:'Bootstrap',router:"/java"},
         ]},
     ]
 };

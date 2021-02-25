@@ -1,5 +1,5 @@
 <template>
-    <div class="continer mt-3">
+    <div class="continer mt-3 p-2">
                 <div id="nav-home-br" class="row nav ">
                     <ul class="nav nav-tabs col-sm-6 ">
                         <li v-for="item in getNavData" :key="item.id" :class="item.class">

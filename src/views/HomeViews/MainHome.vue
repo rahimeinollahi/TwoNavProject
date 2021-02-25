@@ -2,7 +2,12 @@
   <div>
     <!-- <nav-home-cp /> -->
     <nav-home-cp />
-     <router-view />
+     <!-- <router-view /> -->
+      <router-view v-slot="{ Component, route }">
+        <transition :name="route.meta.transition">
+          <component :is="Component" />
+        </transition>
+    </router-view>
   </div>
 </template>
 
@@ -16,3 +21,6 @@ export default {
   }
 }
 </script>
+<style lang='scss' scoped>
+
+</style>

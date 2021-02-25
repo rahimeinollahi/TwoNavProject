@@ -2,7 +2,12 @@
     <div class="continer">
          <nav-menu-cp />
          <!-- <home-cp /> -->
-        <router-view />
+        <!-- <router-view /> -->
+            <router-view v-slot="{ Component, route }">
+                <transition :name="route.meta.transition">
+                  <component :is="Component" />
+                </transition>
+          </router-view>
    </div>
 </template>
 
@@ -18,5 +23,6 @@ import NavMenuCp from '../../components/MainHomeCp/NavMenuCp.vue'
 </script>
 
 <style lang="scss" scoped>
+
 
 </style>

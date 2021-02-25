@@ -13,7 +13,7 @@
       <tbody>
         <tr class="text-center" v-for="item in getTableItems " :key="item.id">
           <td>{{item.id}}</td>
-          <td class="col-sm"> <router-link to="csharppage1" class="">{{item.title}}</router-link></td>
+          <td class="col-sm"> <router-link to="carhome/" class="">{{item.title}}</router-link></td>
           <td class="col-sm-12 w-100">{{item.Completed}}</td>
         </tr>
       </tbody>

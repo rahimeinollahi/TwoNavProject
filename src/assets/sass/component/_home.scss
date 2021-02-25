@@ -1,0 +1,178 @@
+//ts-csharppage1
+.ts-csharppage1-enter-active,
+.ts-csharppage1-leave-active{
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.ts-csharppage1-enter-from,
+.ts-csharppage1-leave-to{
+  opacity: 0;
+  -ms-transform:translateY(-15px);
+  transform:translateY(-15px);
+}
+
+//ts-home
+.ts-homepage-enter-active,
+.ts-homepage-leave-active{
+  -ms-transition: all 1s;
+  transition: all 1s;
+}
+.ts-homepage-enter-from,
+.ts-homepage-leave-to{
+  opacity: 0;
+  transform:  translateY(50px);
+}
+
+//ts-homecp
+.ts-homecp-enter-active,
+.ts-homecp-leave-active{
+  -ms-transition: all 1s;
+  transition: all 1s;
+}
+.ts-homecp-enter-from,
+.ts-homecp-leave-to{
+  opacity: 0;
+  -ms-transform:scale(2);
+  transform:scale(2);
+}
+
+//ts csharp
+.ts-csharp-enter-active,
+.ts-csharp-leave-active{
+  transition: all 0.3s ease-out 0.5s;
+}
+.ts-csharp-enter-from,
+.ts-csharp-leave-to{
+  opacity: 0;
+  -ms-transform:scale(2);
+  transform:scale(2);
+}
+
+//ts java
+.ts-java-enter-active,
+.ts-java-leave-active{
+  transition: all 0.3s ease-in 0.5s;
+}
+.ts-java-enter-from,
+.ts-java-leave-to{
+  opacity: 0;
+  -ms-transform:transform(-15px);
+  transform:transform(-15px);
+}
+//ts algorithm
+.ts-algorithm-enter-active,
+.ts-algorithm-leave-active{
+  transition: all 0.3s ease-in 0.5s;
+}
+.ts-algorithm-enter-from,
+.ts-algorithm-leave-to{
+  opacity: 0;
+  -ms-transform:transform(-15px);
+  transform:transform(-15px);
+}
+
+//ts-hardware
+.ts-hardware-enter-active,
+.ts-hardware-leave-active{
+  transition: all 1s ;
+}
+.ts-hardware-enter-from,
+.ts-hardware-leave-to{
+  opacity: 0;
+  // transform:sc
+}
+
+//ts hardwarepage1
+.ts-hardwarepage1-enter-active,
+.ts-hardwarepage1-leave-active{
+  transition: all 1s;
+}
+.ts-hardwarepage1-enter-from,
+.ts-hardwarepage1-leave-to{
+  opacity: 0;
+  transform:skewX(50deg);
+}
+
+//ts carhome
+.ts-carhome-enter-active,
+.ts-carhome-leave-active{
+  transition: all 0.4s ease-in 0.4s;
+}
+.ts-carhome-enter-from,
+.ts-carhome-leave-to{
+  opacity: 0;
+  -ms-transform:translate(50px);
+  transform:translate(50px);
+  opacity: 0;
+}
+
+//ts datasintis
+.ts-datasintis-enter-active,
+.ts-datasintis-leave-active{
+  transition: all 1s;
+}
+.ts-datasintis-enter-from,
+.ts-datasintis-leave-to{
+  opacity: 0;
+  -ms-transform:skewX(50deg);
+  transform:skewX(50deg);
+}
+
+//ts astart
+.ts-astart-enter-active,
+.ts-astart-leave-active{
+  transition: all 0.5s ease-in 0.8s;
+}
+.ts-astart-enter-from,
+.ts-astart-leave-to{
+  opacity: 0;
+  -ms-transform:rotate(35deg);
+  transform:rotate(35deg);
+}
+//ts genetic
+.ts-genetic-enter-active,
+.ts-genetic-leave-active{
+  transition: all 0.5s ease-out 0.5s;
+}
+.ts-genetic-enter-from,
+.ts-genetic-leave-to{
+  opacity: 0;
+  -ms-transform:translate(50px);
+  transform:translate(50px);
+}
+//ts recovery
+.ts-recovery-enter-active,
+.ts-recovery-leave-active{
+  transition: all 0.5s ease-out 0.5s;
+}
+.ts-recovery-enter-from,
+.ts-recovery-leave-to{
+  opacity: 0;
+  -ms-transform:translate(35px);
+  transform:translate(35px);
+}
+
+//ts carhome
+.ts-carhome-enter-active,
+.ts-carhome-leave-active{
+  transition: all 0.5s ease-out 0.5s;
+}
+.ts-carhome-enter-from,
+.ts-carhome-leave-to{
+  opacity: 0;
+  -ms-transform:translate(35px);
+  transform:translate(35px);
+}
+//ts bookhome
+.ts-bookhome-enter-active,
+.ts-bookhome-leave-active{
+  transition: all 0.5s ease-out 0.5s;
+}
+.ts-bookhome-enter-from,
+.ts-bookhome-leave-to{
+  opacity: 0;
+  -ms-transform:translate(35px);
+  transform:translate(35px);
+}
+
+

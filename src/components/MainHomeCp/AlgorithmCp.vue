@@ -6,7 +6,7 @@
 
             <div class="row pl-3 d-flex justify-content-center" > 
                 <div id="al-card" class="media  col-sm-5 mt-2 mx-1 " v-for="item in getDataAl" :key="item.id">
-                    <router-link to='alpage1'><img :src="item.imgurl" alt="John Doe" class="mr-3 mt-3 rounded-circle card" style="width:60px;"></router-link>
+                    <router-link to='/carhome/carpage2'><img :src="item.imgurl" alt="John Doe" class="mr-3 mt-3 rounded-circle card" style="width:60px;"></router-link>
                    
                     <div id="al-hieht" class="media-body pt-3 ">
                         <h4 class="text-primary">{{item.title}}<small><i class="text-danger">{{item.price}}</i></small></h4>

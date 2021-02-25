@@ -9,7 +9,12 @@
             
             <button @click="alertTest" class="btn-warning rounded mb-3   text-dark font-weight-bold">LEARN ABOUT ABOUT PARTNER</button>
         </div>
-        <router-view />
+        <!-- <router-view /> -->
+        <router-view v-slot="{ Component, route }">
+            <transition :name="route.meta.transition">
+                <component :is="Component" />
+            </transition>
+        </router-view>
     </div>
 </template>
 
@@ -48,4 +53,27 @@ import NavCarCp from '../../components/CarCp/NavCarCp.vue'
        font-family: 'recover-header-font2';
        font-size: 20px;
     }
+
+    //ts carpage1
+.ts-carpage1-enter-active,
+.ts-carpage1-leave-active{
+  transition: all 0.5s ease-out 0.5s;
+}
+.ts-carpage1-enter-from,
+.ts-carpage1-leave-to{
+  opacity: 0;
+  -ms-transform:translate(35px);
+  transform:translate(35px);
+}
+//ts carpage2
+.ts-carpage2-enter-active,
+.ts-carpage2-leave-active{
+  transition: all 0.5s ease-out 0.5s;
+}
+.ts-carpage2-enter-from,
+.ts-carpage2-leave-to{
+  opacity: 0;
+  -ms-transform:translate(35px);
+  transform:translate(35px);
+}
 </style>

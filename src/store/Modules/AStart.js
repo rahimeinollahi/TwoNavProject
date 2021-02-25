@@ -1,6 +1,6 @@
 const state={
     asartItem:[
-        {id:1,url:'../../../../image-as/1.png',alt:'image astar',headerText:'6 weeks, excluding',ctnText:'orientation'},
+        {id:1,url:'../../../../image-as/11.png',alt:'image astar',headerText:'6 weeks, excluding',ctnText:'orientation'},
         {id:2,url:'../../../../image-as/timer.png',alt:'image astar',headerText:'7-10 hours per week,',ctnText:'entirely online'},
         {id:3,url:'../../../../image-as/laptop.png',alt:'image astar',headerText:'Weekly modules,',ctnText:'flexible learning'},
         {id:4,url:'../../../../image-as/longside.png',alt:'image astar',headerText:'Learn alongside a global cohort',ctnText:'of like-minded professionals'},
